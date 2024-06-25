@@ -1,0 +1,28 @@
+{
+    "user":[
+        {"userid":123,"username":"vijay"},
+        {"userid":124,"username":"Kumar"},
+        {"userid":125,"username":"Ezhil"},
+        {"userid":126,"username":"Ilamaran"},
+        {"userid":127,"username":"Bhakavathy"}
+    ],
+    "cityList":[
+        "Chennai","Delhi","Mumbai"
+    ]
+    ,
+    "createUser":{
+        "result":true,
+        "data":{"userid":123,"username":"vijay"}
+
+    },
+    "updateUser":{
+        "result":true,
+        "data":{"userid":123,"username":"vijay"}
+
+    },
+    "deleteUser":{
+        "result":true,
+        "data":{"userid":123,"username":"vijay"}
+
+    }
+}
