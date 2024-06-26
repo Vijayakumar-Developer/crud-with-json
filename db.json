@@ -1,28 +1,17 @@
 {
-    "user":[
-        {"userid":123,"username":"vijay"},
-        {"userid":124,"username":"Kumar"},
-        {"userid":125,"username":"Ezhil"},
-        {"userid":126,"username":"Ilamaran"},
-        {"userid":127,"username":"Bhakavathy"}
+    "userList":[
+        {"userId":1,"userName":"vijay","firstName":"vijay","lastName":"Kumar","city":"Chennai","state":"Tamil Nadu","zipcode":"600015"},
+        {"userId":2,"userName":"vijay","firstName":"vijay","lastName":"Kumar","city":"Chennai","state":"Tamil Nadu","zipcode":"600015"},
+        {"userId":3,"userName":"vijay","firstName":"vijay","lastName":"Kumar","city":"Chennai","state":"Tamil Nadu","zipcode":"600015"},
+        {"userId":4,"userName":"vijay","firstName":"vijay","lastName":"Kumar","city":"Chennai","state":"Tamil Nadu","zipcode":"600015"}
     ],
-    "cityList":[
-        "Chennai","Delhi","Mumbai"
-    ]
-    ,
-    "createUser":{
-        "result":true,
-        "data":{"userid":123,"username":"vijay"}
-
+    "cityList": ["Pune","Mumbai","Thane"],
+    "stateList": ["MAH","GOA","PUN"],
+    "createUser": { 
+        "userId":1,"userName":"vijay","firstName":"vijay","lastName":"Kumar","city":"Chennai","state":"Tamil Nadu","zipcode":"600015"
     },
-    "updateUser":{
-        "result":true,
-        "data":{"userid":123,"username":"vijay"}
-
+    "updateUser": { "userId":1,"userName":"vijay","firstName":"vijay","lastName":"Kumar","city":"Chennai","state":"Tamil Nadu","zipcode":"600015"
     },
-    "deleteUser":{
-        "result":true,
-        "data":{"userid":123,"username":"vijay"}
-
+    "deleteUser": { "userId":1,"userName":"vijay","firstName":"vijay","lastName":"Kumar","city":"Chennai","state":"Tamil Nadu","zipcode":"600015" 
     }
 }
